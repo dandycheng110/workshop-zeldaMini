@@ -1,0 +1,16 @@
+[project]
+name = "zelda"
+version = "0.1.0"
+description = "Pyxel 版的迷你薩爾達（俯視視角、揮劍、多房間地下城）"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pyxel>=2.9.2",
+]
+
+[dependency-groups]
+dev = [
+    "pyright>=1.1.409",
+    "pytest>=9.0.3",
+    "ruff>=0.15.12",
+]
